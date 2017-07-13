@@ -1,0 +1,117 @@
+@media only screen and (max-width: 1024px){
+  .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable{
+    padding: 50px 35px;
+  }
+
+  .cable-txt{
+    font-size: 17px;
+  }
+
+}
+
+@media only screen and (max-width: 960px){
+  .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable{
+    padding: 50px 20px;}
+
+  h1{ font-size: 20px;}
+
+  .cable-txt{ font-size: 16px;}
+
+  body header .topnav{
+    margin-top: 20px;
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 760px){
+  .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable, .wrapper-footer{
+    padding: 50px 10px;
+  }
+
+body{
+  font-size: 14px;
+  line-height: 14px;
+  }
+
+  .intro-txt p{
+    font-style: italic;
+    margin-bottom: 20px;
+    line-height: 14px;
+    font-size: 14px;
+  }
+
+  .intro-txt{
+    width: 35%;
+  }
+
+    .intro-txt h1{
+      margin-top: 50px;
+    }
+
+  .cable-txt{
+    font-size: 16px;
+  }
+
+  .home-header-button, .button{
+    font-size: 16px;
+  }
+
+  .intro-txt p{
+    margin-bottom: 40px;
+  }
+
+.wrapper-copyright p{
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .wrapper-copyright{
+    display: block;
+    text-align: center;
+  }
+
+  .validation{
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .intro-pic img, .rocket-pic img, .oferta-pic img, .zanas-pic img, .cable img{
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 640px){
+
+  .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable, .wrapper-footer{
+    padding: 50px 20px;
+  }
+
+  .topnav, .logo{
+  display: block;
+  }
+
+  .logo, .topnav, .intro, .wrapper-rocket, .wrapper-copyright{
+    display: block;
+  }
+
+  .intro-pic, .intro-txt, .rocket-pic, .rocket-txt, .oferta-txt, .oferta-pic, .zanas-txt, .zanas-pic, .cable-txt, .cable img{
+    width: 100%;
+  }
+
+  .intro-pic, .rocket-pic, .oferta-pic, .zanas-pic, .cable img{
+    margin: 20px;
+  }
+  .wrapper-footer{
+    display: block;
+  }
+
+  .zombuni-socials h1{
+    padding-top: 60px;
+    }
+  }
+
+@media only screen and (max-width: 320px){
+.cable img{
+  width: 80%;
+}
+}
