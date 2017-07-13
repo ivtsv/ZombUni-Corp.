@@ -1,20 +1,7 @@
-.wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable, .wrapper-copyright{
-  max-width: 1600px;
-  padding: 50px 70px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  flex-grow: 1 30%;
-}
-
-
 /* Index Header Style */
 
 body header{
-  height: 800px;
+  height: auto;
   width: 100%;
   background-image: radial-gradient(circle at center, #e3ceb8 0%, #38290b 250%);
   background-size: cover;
@@ -24,7 +11,7 @@ body header{
 .intro{
   width: 100%;
   background-size: cover;
-  height: 650px;
+  height: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -43,13 +30,12 @@ body header{
 }
 
 .intro-pic img{
-  height: 650px;
+  height: 600px;
 }
 
 .intro-txt p{
   font-style: italic;
   margin-bottom: 40px;
-  line-height: 26px;
 }
 
 .home-header-button{
@@ -76,12 +62,11 @@ body header{
 
 .rocket{
   background: #d78519;
-  height: 380px;
+  height: auto;
   }
 
 .rocket-txt{
   width: 45%;
-  order: 3;
 }
 
 .rocket-txt img{
@@ -97,17 +82,16 @@ body header{
 
 .rocket-pic{
   width: 35%;
-  order: 4;
 }
 
 .rocket-pic img{
-  height: 300px;
+  height: 300;
 }
 
 /* Section Oferta*/
 
 .oferta{
-  height: 700px;
+  height: auto;
   background: linear-gradient(#fcfff5 0%, #f4f7ed 100%);
 }
 
@@ -132,7 +116,7 @@ body header{
 /* Section Za Nas*/
 
 .zanas{
-  height: 700px;
+  height: auto;
 }
 
 .zanas-txt{
@@ -156,12 +140,12 @@ body header{
 /* Section Cable */
 
 .cable{
-  height: 200px;
+  height: auto;
   background: #d78519;
 }
 
 .cable-txt{
-  width: 45%;
+  width: 55%;
   order: 10;
   color: #fff;
   text-align: center;
@@ -169,7 +153,8 @@ body header{
 }
 
 .cable img{
-  width: 40%;
+  width: 30%;
   order: 9;
   height: 100px;
+  margin-left: 30px;
 }
