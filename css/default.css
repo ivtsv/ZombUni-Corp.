@@ -39,6 +39,7 @@ h1{
   text-decoration: none;
   color: #292e27;
   font-weight: 700;
+  margin-top: 30px;
 }
 
 .button:hover{
@@ -99,4 +100,110 @@ body header .topnav ul li:last-child:hover{
 body header .topnav ul li a{
   text-decoration: none;
   color: #292e27;
+}
+
+/* Footer*/
+footer{
+  background: #292E27;
+  height: auto;
+}
+
+footer h1{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+
+.wrapper-footer{
+  max-width: 1600px;
+  padding: 50px 70px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.footnav ul li{
+  list-style-type: none;
+  font-weight: lighter;
+  font-size: 16px;
+  height: 40px;
+
+}
+
+
+.footnav ul li a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.footnav ul li a:hover {
+  color: #D78519;
+  cursor: pointer;
+}
+
+.zombunify p{
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+h6{
+  color: #fff;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.zombuni-socials ul li{
+  float: left;
+  margin-right: 18px;
+  list-style-type: none;
+  display: list-item;
+}
+
+.zombuni-socials ul li a{
+  color: #fff;
+  font-size: 23px;
+}
+
+.zombuni-socials ul li a:hover{
+  color: #D78519;
+  cursor: pointer;
+}
+
+.zombuni-socials h1{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+
+
+/* Copyright */
+.wrapper-copyright{
+  padding: 0 70px;
+}
+.copyright, .validation{
+  background: #0E1613;
+  height: 80px;
+  line-height: 80px;
+}
+
+footer p{
+  font-size: 13px;
+}
+
+.validation a{
+  width: 20%;
+  padding-top: 10px;
+
+}
+
+.validation{
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row;
+  flex-wrap: wrap;
 }
