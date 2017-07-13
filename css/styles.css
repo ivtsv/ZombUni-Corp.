@@ -1,4 +1,4 @@
-.wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable, .wrapper-footer, .wrapper-copyright{
+.wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable, .wrapper-copyright{
   max-width: 1600px;
   padding: 50px 70px;
   margin: 0 auto;
@@ -7,6 +7,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  flex-grow: 1 30%;
 }
 
 
@@ -171,73 +172,4 @@ body header{
   width: 40%;
   order: 9;
   height: 100px;
-}
-
-/* Footer*/
-footer{
-  background: #292E27;
-  height: auto;
-}
-
-footer h1{
-  color: #fff;
-  font-size: 24px;
-  font-weight: 500;
-  padding-bottom: 40px;
-}
-
-.footnav, .zombunify{
-  width: 50%;
-}
-
-.footnav ul li{
-  list-style-type: none;
-  font-weight: lighter;
-  font-size: 16px;
-  height: 40px;
-  display: block;
-}
-
-
-.footnav ul li a{
-  text-decoration: none;
-  color: #fff;
-  transition: padding-left 0.5s;
-}
-
-.footnav ul li:hover a{
-  color: #D78519;
-  padding-left: 20px;
-  cursor: pointer;
-}
-
-.zombunify p{
-  color: #fff;
-}
-
-/* Copyright */
-.wrapper-copyright{
-  padding: 0 70px;
-}
-.copyright{
-  background: #0E1613;
-  height: 80px;
-  line-height: 80px;
-}
-
-footer p{
-  font-size: 13px;
-}
-
-.validation img{
-  height: 30px;
-  width: 20%;
-}
-
-.validation{
-  display: flex;
-  justify-content: flex-end;
-  flex-flow: row;
-  flex-wrap: wrap;
-
 }
