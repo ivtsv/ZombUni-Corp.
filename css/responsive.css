@@ -1,6 +1,10 @@
 @media only screen and (max-width: 1024px){
   .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable{
-    padding: 50px 35px;
+    padding: 50px 30px;
+  }
+
+  body header .topnav ul li{
+    font-size: 15px;
   }
 
   .cable-txt{
@@ -26,26 +30,11 @@
     display: block;
   }
 
-  .side-collapse-container{
-      width:100%;
-      position:relative;
-      left:0;
-      transition:top.4s;
+  body header .topnav{
+    display: none;
   }
-  .side-collapse-container.out{
-      top:200px;
-  }
-  .side-collapse {
-      top:50px;
-      bottom:0;
-      left:0;
-      width:200px;
-      position:fixed;
-      overflow:hidden;
-      transition:width .4s;
-  }
-  .side-collapse.in {
-      width:0;
+  header .mobile-menu{
+    display: block;
   }
 }
 
