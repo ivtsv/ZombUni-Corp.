@@ -23,10 +23,11 @@ img{
 
 body{
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   color: #292e27;
   margin: 0 auto;
   position: relative;
+  line-height: 24px;
 }
 
 h1{
@@ -171,7 +172,7 @@ footer{
 
 footer h1{
   color: #fff;
-  font-size: 21px;
+  font-size: 24px;
   font-weight: 500;
   padding-bottom: 40px;
 }
@@ -190,7 +191,6 @@ footer h1{
 .footnav ul li{
   list-style-type: none;
   font-weight: lighter;
-  font-size: 15px;
   height: 40px;
 }
 
@@ -244,18 +244,26 @@ h6{
 .copyright{
   background: #0E1613;
   height: auto;
+  font-size: 14px;
+  color: #666666;
 }
 
-.wrapper-copyright p, .validation{
-  display: inline-block;
-}
-
-.validation img{
-  height: 20px;
-  width: 100%;
+.reserved, .validation{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .validation{
-  width: 30%;
+  height: 25px;
+  width: 50%;
+}
+
+
+.validation a{
+  text-align: right;
   display: inline-block;
+  height: 25px;
+  width: 20%;
+  float: right;
 }
