@@ -21,6 +21,32 @@
     margin-top: 20px;
     padding-left: 30px;
   }
+
+  body header button{
+    display: block;
+  }
+
+  .side-collapse-container{
+      width:100%;
+      position:relative;
+      left:0;
+      transition:top.4s;
+  }
+  .side-collapse-container.out{
+      top:200px;
+  }
+  .side-collapse {
+      top:50px;
+      bottom:0;
+      left:0;
+      width:200px;
+      position:fixed;
+      overflow:hidden;
+      transition:width .4s;
+  }
+  .side-collapse.in {
+      width:0;
+  }
 }
 
 @media only screen and (max-width: 760px){
@@ -113,5 +139,8 @@ body{
 @media only screen and (max-width: 320px){
 .cable img{
   width: 80%;
+}
+
+
 }
 }
