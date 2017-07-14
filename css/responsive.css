@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1024px){
+@media all and (max-width: 1024px){
   .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable{
     padding: 50px 30px;}
 
@@ -9,7 +9,7 @@
     width: 30%;}
 }
 
-@media only screen and (max-width: 960px){
+@media all and (max-width: 960px){
   .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable{
     padding: 50px 20px;}
 
@@ -48,7 +48,7 @@
     margin-bottom: 30px;}
 }
 
-@media only screen and (max-width: 760px){
+@media all and (max-width: 760px){
   .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable, .wrapper-footer{
     padding: 50px 30px;}
 
@@ -81,47 +81,66 @@
     padding-bottom: 30px;  }
 
   .validation a{
-    width: 23%;}
+    width: 20%;}
 
   .intro-pic img, .rocket-pic img, .oferta-pic img, .zanas-pic img{
     height: auto;}
 }
 
-@media only screen and (max-width: 640px){
+@media all and (max-width: 640px){
 
   .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable, .wrapper-footer{
-    padding: 50px 20px;
-  }
+    padding: 50px 20px;}
 
-  .topnav, .logo{
-  display: block;
-  }
+.wrapper-rocket, .wrapper-copyright{
+    display: block;}
 
-  .logo, .topnav, .intro, .wrapper-rocket, .wrapper-copyright{
-    display: block;
-  }
 
-  .intro-pic, .intro-txt, .rocket-pic, .rocket-txt, .oferta-txt, .oferta-pic, .zanas-txt, .zanas-pic, .cable-txt, .cable img{
-    width: 100%;
-  }
+  .pic, .txt{width: 100%;}
 
-  .intro-pic, .rocket-pic, .oferta-pic, .zanas-pic, .cable img{
-    margin: 20px;
-  }
-  .wrapper-footer{
-    display: block;
-  }
+  .pic{padding: 30px;}
+
+
+  .zanas-pic{ order: 1}
+  .zanas-txt{ order: 2}
 
   .zombuni-socials h1{
-    padding-top: 60px;
-    }
+    padding-top: 60px;}
   }
 
-@media only screen and (max-width: 320px){
-.cable img{
-  width: 80%;
+    .validation a{
+      width: 30%;}
+}
+@media all and (max-width: 480px){
+  .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable, .wrapper-footer{
+    padding: 50px 10px;}
 }
 
+.home-header-button, .button{
+  font-size: 16px;}
 
+.logo{height: 37px;}
 }
+
+@media all and (max-width: 320px){
+
+  .validation a{
+    width: 60%;}
+
+  .rocket-txt img{
+    height: 30px;
+    width: 100%}
+
+  .pic{padding: 0;}
+
+  .txt{padding-top: 40px;}}
+
+  .logo{width: 200px;}
+
+  header .mobile-menu{
+    font-size: 30px;
+    right: 10px;
+  }
+
+
 }
