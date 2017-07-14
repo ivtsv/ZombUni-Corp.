@@ -1,98 +1,90 @@
 @media only screen and (max-width: 1024px){
   .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable{
-    padding: 50px 30px;
-  }
+    padding: 50px 30px;}
 
   body header .topnav ul li{
-    font-size: 15px;
-  }
+    font-size: 15px;}
 
-  .cable-txt{
-    font-size: 17px;
-  }
-
+  .validation a{
+    width: 30%;}
 }
 
 @media only screen and (max-width: 960px){
   .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable{
     padding: 50px 20px;}
 
-  h1{ font-size: 20px;}
+  body{
+      line-height: 21px;}
 
-  .cable-txt{ font-size: 16px;}
+  .txt{
+      width: 40%;
+      padding: 0 10px;}
+
+  .pic{width: 55%;}
 
   body header .topnav{
     margin-top: 20px;
-    padding-left: 30px;
-  }
+    padding-left: 30px;}
 
   body header button{
-    display: block;
-  }
+    display: block;}
 
   body header .topnav{
-    display: none;
-  }
+    display: none;}
+
   header .mobile-menu{
-    display: block;
-  }
+    display: block;}
+
+  .validation{
+    width: 44%;}
+
+  .cable-txt, .cable-pic{
+    width: 100%;
+    align-items: center;}
+
+  .cable-pic img{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;}
 }
 
 @media only screen and (max-width: 760px){
   .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable, .wrapper-footer{
-    padding: 50px 10px;
-  }
+    padding: 50px 30px;}
 
-body{
-  font-size: 14px;
-  line-height: 14px;
-  }
+  body{
+  line-height: 19px;
+  font-size: 15px; }
 
-  .intro-txt p{
-    font-style: italic;
-    margin-bottom: 20px;
-    line-height: 14px;
-    font-size: 14px;
-  }
+  h1{
+    font-size: 24px;}
 
-  .intro-txt{
-    width: 35%;
-  }
-
-    .intro-txt h1{
-      margin-top: 50px;
-    }
-
-  .cable-txt{
-    font-size: 16px;
-  }
+  .intro-txt h1{
+      margin-top: 50px;}
 
   .home-header-button, .button{
-    font-size: 16px;
-  }
-
-  .intro-txt p{
-    margin-bottom: 40px;
-  }
-
-.wrapper-copyright p{
-    font-size: 12px;
-    width: 100%;
-  }
+    font-size: 18px;}
 
   .wrapper-copyright{
     display: block;
-    text-align: center;
-  }
+    text-align: center;}
+
+  .wrapper-copyright p{
+    font-size: 13px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;}
 
   .validation{
     justify-content: center;
     width: 100%;
-    padding-bottom: 30px;
-  }
-  .intro-pic img, .rocket-pic img, .oferta-pic img, .zanas-pic img, .cable img{
-    height: auto;
-  }
+    padding-bottom: 30px;  }
+
+  .validation a{
+    width: 23%;}
+
+  .intro-pic img, .rocket-pic img, .oferta-pic img, .zanas-pic img{
+    height: auto;}
 }
 
 @media only screen and (max-width: 640px){
