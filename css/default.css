@@ -8,7 +8,7 @@ body, ul, header, footer, section, article, ul, li, a, span, nav, h1, h2, h3, di
 
 .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable, .wrapper-copyright{
   max-width: 1600px;
-  padding: 50px 70px;
+  padding: 50px 60px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -26,6 +26,7 @@ body{
   font-size: 15px;
   color: #292e27;
   margin: 0 auto;
+  position: relative;
 }
 
 h1{
@@ -62,15 +63,15 @@ span{
 
 /* Logo + Top Nav */
 
-.logo{
-  height: 42px;
+body header  .logo{
+  height: 40px;
 }
 
-.topnav, .logo{
+body header .topnav, .logo{
 display: inline-block;
 }
 
-.topnav{
+body header  .topnav{
   float: right;
 }
 
@@ -79,8 +80,8 @@ body header .topnav ul li{
   height: 30px;
   line-height: 30px;
   padding-right: 5px;
-  font-weight: 500;
-  font-size: 15px;
+  font-weight: 700;
+  font-size: 16px;
   transition: padding-left 0.5s;
 }
 
@@ -110,8 +111,56 @@ body header .topnav ul li a{
   color: #292e27;
 }
 
-body header button{
+/* TODO: Mobile Navigation */
+
+header .mobile-menu, .logo{
+display: inline-block;
+}
+
+header .mobile-menu{
+  float: right;
+  font-size: 34px;
+  width: 26px;
+  position: relative;
+  right: 34px;
   display: none;
+}
+
+header .mobile-menu a{
+  text-decoration: none;
+  color: #292E27;
+}
+
+header ul.mobile-menu ul {
+    background: rgba(215, 133, 25, 0.9);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    right: -3px;
+    top: 33px;
+    padding: 20px;
+}
+
+header ul.mobile-menu li:hover > ul {
+    display: block;
+}
+
+header ul.mobile-menu ul li a{
+  display: inline-block;
+  text-align: right;
+  width: 250px;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 5px;
+  transition: padding-right 0.5s;
+}
+
+header ul.mobile-menu ul li:hover a{
+  cursor: pointer;
+  padding-right: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  border-right: 3px solid #292E27;
 }
 
 /* Footer*/
