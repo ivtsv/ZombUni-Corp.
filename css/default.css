@@ -65,7 +65,6 @@ span{
 /* Logo + Top Nav */
 
 body header  .logo{
-  height: 40px;
 }
 
 body header .topnav, .logo{
@@ -149,7 +148,7 @@ header ul.mobile-menu li:hover > ul {
 header ul.mobile-menu ul li a{
   display: inline-block;
   text-align: right;
-  width: 250px;
+  width: 210px;
   font-weight: 700;
   font-size: 17px;
   padding: 5px;
