@@ -2,8 +2,8 @@
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 
-body, ul, header, footer, section, article, ul, li, a, span, nav, h1, h2, h3, div, img {
-    box-sizing: border-box;
+*{
+  box-sizing: border-box;
 }
 
 .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable, .wrapper-copyright{
@@ -11,7 +11,6 @@ body, ul, header, footer, section, article, ul, li, a, span, nav, h1, h2, h3, di
   padding: 50px 60px;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
@@ -30,7 +29,7 @@ body{
   line-height: 24px;
 }
 
-h1{
+h2{
   font-family: "Roboto Condensed", sans-serif;
   font-size: 28px;
   font-weight: bold;
@@ -43,7 +42,6 @@ h1{
   font-weight: bold;
   font-size: 20px;
   border-radius: 7px;
-  width: 50%;
   height: 45px;
   line-height: 45px;
   padding: 10px 25px;
@@ -148,7 +146,7 @@ header ul.mobile-menu li:hover > ul {
 header ul.mobile-menu ul li a{
   display: inline-block;
   text-align: right;
-  width: 210px;
+  width: 200px;
   font-weight: 700;
   font-size: 17px;
   padding: 5px;
@@ -169,7 +167,7 @@ footer{
   height: auto;
 }
 
-footer h1{
+footer h2{
   color: #fff;
   font-size: 24px;
   font-weight: 500;
@@ -233,7 +231,7 @@ h6{
   cursor: pointer;
 }
 
-.zombuni-socials h1{
+.zombuni-socials h2{
   margin-bottom: 0;
   padding-bottom: 20px;
 }
@@ -255,14 +253,14 @@ h6{
 
 .validation{
   height: 25px;
-  width: 50%;
+  width: 35%;
 }
 
 
 .validation a{
   text-align: right;
   display: inline-block;
-  height: 25px;
-  width: 20%;
+  height: 20px;
+  width: 120px;
   float: right;
 }
