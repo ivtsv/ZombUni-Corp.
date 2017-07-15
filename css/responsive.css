@@ -56,10 +56,10 @@
   line-height: 19px;
   font-size: 15px; }
 
-  h1{
+  h2{
     font-size: 24px;}
 
-  .intro-txt h1{
+  .intro-txt h2{
       margin-top: 50px;}
 
   .home-header-button, .button{
@@ -81,7 +81,7 @@
     padding-bottom: 30px;  }
 
   .validation a{
-    width: 20%;}
+    width: 15%}
 
   .intro-pic img, .rocket-pic img, .oferta-pic img, .zanas-pic img{
     height: auto;}
@@ -104,12 +104,17 @@
   .zanas-pic{ order: 1}
   .zanas-txt{ order: 2}
 
-  .zombuni-socials h1{
-    padding-top: 60px;}
+
+  .validation a{
+    width: 30%;}
+
+  .wrapper-footer{
+    display: block;
   }
 
-    .validation a{
-      width: 30%;}
+  .zombuni-socials{
+    margin-top: 50px;}
+  }
 }
 @media all and (max-width: 480px){
   .wrapper-header, .wrapper-rocket, .wrapper-oferta, .wrapper-zanas, .wrapper-cable, .wrapper-footer{
@@ -141,6 +146,4 @@
     font-size: 30px;
     right: 10px;
   }
-
-
 }
